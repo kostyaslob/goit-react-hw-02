@@ -1,0 +1,35 @@
+.transition {
+    width: 600px;
+    margin: 40px auto;
+    border: 1px solid #000;
+    text-align: center;
+    text-transform: capitalize;
+    border-collapse: collapse;
+    font-size: 16px;
+    table-layout: fixed;
+}
+
+.transitionHeader {
+    color: #fff;
+    background-color: #363636;
+}
+
+.transition th,
+.transition td {
+    padding: 5px 5px;
+    border: 1px solid #000;    
+}
+
+.transition td:first-child {
+    text-align: left;
+    padding-left: 60px;
+    font-weight: 700;
+}
+
+.transition tbody tr:nth-child(even) {
+    background-color: #a5a5a5;
+}
+
+.transition tbody tr:nth-child(odd) {
+    background-color: #fff;
+}

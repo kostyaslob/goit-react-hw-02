@@ -1,0 +1,21 @@
+.avatar {
+    width: 80px;
+}
+
+.name {
+    font-size: 20px;
+    font-weight: 700;
+    margin: 20px 0 10px;
+}
+
+.status {
+    font-weight: 700;
+}
+
+.online {
+    color: green;
+}
+
+.offline {
+    color: red;
+}
