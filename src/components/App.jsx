@@ -33,10 +33,14 @@ export default function App() {
     }));
   }
 
+  const resetFeedback = () => {
+    setValues({ good: 0, neutral: 0, bad: 0 })
+  }
+
   return (
     <>
       <Description />
-      <Options setValues={setValues} updateFeedback={updateFeedback} totalFeedback={totalFeedback}  />
+      <Options resetFeedback={resetFeedback} updateFeedback={updateFeedback} totalFeedback={totalFeedback}  />
       {totalFeedback > 0
         ? <Feedback values={values} totalFeedback={totalFeedback} positiveFeedback={positiveFeedback} />
         : <Notification />

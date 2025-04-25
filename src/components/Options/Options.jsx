@@ -1,9 +1,6 @@
 import css from "./Options.module.css"
 
-export default function Options({ setValues, updateFeedback, totalFeedback }) {
-    const resetFeedback = () => {
-        setValues({ good: 0, neutral: 0, bad: 0 })
-    }
+export default function Options({ resetFeedback, updateFeedback, totalFeedback }) {
     
     return (
         <div className={css.option}>
@@ -14,5 +11,5 @@ export default function Options({ setValues, updateFeedback, totalFeedback }) {
                 <button className={css.resetButton} onClick={resetFeedback}>Reset</button>
             }
         </div>
-    )
+    );
 }

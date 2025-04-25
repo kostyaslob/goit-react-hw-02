@@ -22,3 +22,7 @@ button:hover {
 .resetButton {
     background-color: #b1241a;
 }
+
+.resetButton:hover {
+    background-color: #e42518;
+}
