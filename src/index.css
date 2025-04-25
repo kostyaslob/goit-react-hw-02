@@ -1,5 +1,5 @@
 body {
-  font-family: "Times New Roman", Times, serif;
+  font-family: 'Times New Roman', Times, serif;
   line-height: 1.5;
   padding: 20px;
 }
@@ -25,3 +25,8 @@ img {
   display: block;
   max-width: 100%;
 }
+
+div {
+  margin-bottom: 20px;
+}
+
