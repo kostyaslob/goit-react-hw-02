@@ -11,7 +11,7 @@ export default function Options({ setValues, updateFeedback, totalFeedback }) {
             <button onClick={() => updateFeedback("neutral")}>Neutral</button>
             <button onClick={() => updateFeedback("bad")}>Bad</button>
             {totalFeedback > 0 &&
-                <button onClick={resetFeedback} style={{backgroundColor: '#b1241a'}}>Reset</button>
+                <button className={css.resetButton} onClick={resetFeedback}>Reset</button>
             }
         </div>
     )

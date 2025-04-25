@@ -18,3 +18,7 @@ button:hover {
     background-color: #45a049;
     scale: 1.05;
 }
+
+.resetButton {
+    background-color: #b1241a;
+}
